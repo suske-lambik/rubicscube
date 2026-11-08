@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>De kubus oplossen – gratis cursus voor kinderen</title>
+<meta name="description" content="Gratis cursus in het Nederlands: leer kinderen de Rubik's Kubus oplossen in 8 stappen. Download als PDF, in kleur of zwart-wit.">
+<style>
+  :root { --ink:#1F2340; --rood:#E63946; --geel:#FFD500; --groen:#009E60; --blauw:#3A86FF; --oranje:#FF8C00; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--ink); background:#fafaf7; line-height:1.55; }
+  .strook { height:10px; background: linear-gradient(90deg, var(--rood) 0 16.6%, var(--oranje) 16.6% 33.3%, var(--geel) 33.3% 50%, var(--groen) 50% 66.6%, var(--blauw) 66.6% 83.3%, #fff 83.3%); }
+  header { background:var(--ink); color:#fff; padding:56px 20px 64px; text-align:center; }
+  h1 { font-size: clamp(2rem, 5vw, 3.2rem); margin:0 0 8px; line-height:1.1; }
+  h1 span { color:var(--geel); }
+  header p { font-size:1.15rem; margin:0; opacity:.9; }
+  main { max-width: 900px; margin: -36px auto 0; padding: 0 20px 60px; }
+  .kaart { background:#fff; border-radius:16px; box-shadow:0 4px 24px rgba(31,35,64,.08); padding:32px; margin-bottom:28px; }
+  .knoppen { display:flex; flex-wrap:wrap; gap:14px; justify-content:center; margin-top:8px; }
+  .knop { display:inline-block; padding:16px 26px; border-radius:12px; font-weight:700; font-size:1.05rem; text-decoration:none; color:#fff; }
+  .knop.kleur { background:var(--groen); }
+  .knop.zw { background:#fff; color:var(--ink); border:2.5px solid var(--ink); }
+  .knop small { display:block; font-weight:400; font-size:.85rem; opacity:.85; }
+  .voorbeelden { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:20px; }
+  .voorbeelden img { width:100%; border-radius:8px; border:1px solid #e3e3ea; display:block; }
+  figcaption { text-align:center; font-size:.9rem; margin-top:6px; color:#555; }
+  ol { padding-left:1.3em; } li { margin:4px 0; }
+  h2 { margin-top:0; }
+  footer { text-align:center; font-size:.85rem; color:#777; padding:20px; }
+</style>
+</head>
+<body>
+<div class="strook"></div>
+<header>
+  <h1>De Rubik's Kubus <span>oplossen!</span></h1>
+  <p>Een gratis en makkelijke cursus voor kinderen, in 8 stappen</p>
+</header>
+<main>
+  <section class="kaart" style="text-align:center">
+    <h2>Download de cursus (PDF)</h2>
+    <p>9 bladzijden met tekeningen, een spiekbriefje en een diploma.</p>
+    <div class="knoppen">
+      <a class="knop kleur" href="kubus-cursus-kleur.pdf" download>Kleurversie<small>om op scherm te bekijken</small></a>
+      <a class="knop zw" href="kubus-cursus-zwart-wit.pdf" download>Zwart-wit versie<small>spaart inkt bij afdrukken</small></a>
+    </div>
+  </section>
+
+  <section class="kaart">
+    <h2>Wat leer je?</h2>
+    <ol>
+      <li>Het madeliefje</li>
+      <li>Het witte kruis</li>
+      <li>De witte hoeken</li>
+      <li>De middenlaag</li>
+      <li>Het gele kruis</li>
+      <li>De gele randen op hun plek</li>
+      <li>De gele hoeken op hun plek</li>
+      <li>De gele hoeken draaien</li>
+    </ol>
+    <p>Elke formule staat in blokjes met een tekeningetje van de draai, zodat kinderen ze zelf kunnen volgen.</p>
+  </section>
+
+  <section class="kaart">
+    <h2>Een kijkje binnenin</h2>
+    <div class="voorbeelden">
+      <figure style="margin:0"><img src="voorblad.png" alt="Voorblad van de cursus"><figcaption>Voorblad</figcaption></figure>
+      <figure style="margin:0"><img src="voorbeeld.png" alt="Voorbeeldpagina: het gele kruis"><figcaption>Stap 5 en 6</figcaption></figure>
+    </div>
+  </section>
+</main>
+<footer>Gratis te downloaden, af te drukken en te delen. Rubik's is een merknaam van Spin Master; deze cursus is er niet aan verbonden.</footer>
+</body>
+</html>
